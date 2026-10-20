@@ -1,5 +1,5 @@
 /* Bump VERSION on every deploy that changes app files (HTML/CSS/JS/icons/GPX). */
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `troodos-${VERSION}`;
 
 const STATIC_ASSETS = [

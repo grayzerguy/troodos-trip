@@ -12,7 +12,7 @@
       "departure": "10:30",
       "meetingPoint": { "name": "נמל התעופה לרנקה – יציאה מהטרמינל", "lat": 34.8751, "lng": 33.6249 },
       "driver": "נהג/ת 1 (להשלים)",
-      "routeId": "caledonia",
+      "routeId": "pouziaris-kaledonia",
       "hotelId": "hotel-troodos",
       "notes": "עצירת קניות בסופר בדרך. נסיעה של כשעה וחצי לטרודוס."
     },
@@ -81,19 +81,20 @@
       "notes": "מתחיל ומסתיים בכיכר טרודוס. מעבר ליד מכרה כרום ישן."
     },
     {
-      "id": "caledonia",
-      "name": "מפל קלדוניה (Caledonia Trail)",
-      "lengthKm": 3,
-      "ascentM": 50,
-      "durationH": 1.5,
-      "difficulty": "קל",
-      "start": { "lat": 34.9073, "lng": 32.8700 },
-      "gpx": "gpx/caledonia.gpx",
+      "id": "pouziaris-kaledonia",
+      "name": "מעגל פוזיאריס – מפל קלדוניה (פלאטרס)",
+      "lengthKm": 8.1,
+      "ascentM": 470,
+      "durationH": 3.5,
+      "difficulty": "בינוני",
+      "start": { "lat": 34.89593, "lng": 32.86911 },
+      "gpx": "gpx/day1-pouziaris-kaledonia.gpx",
       "links": [
-        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Caledonia%20waterfall" }
+        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?dim=6acced98ab1c892efcd1decc&x=32.8724670&y=34.9036362&z=14" },
+        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Kaledonia%20Pouziaris%20Platres" }
       ],
-      "water": "לאורך נחל – אבל לא לשתות בלי טיהור.",
-      "notes": "חד-כיווני בירידה, ~230 מ' ירידה. סלעים חלקלקים ליד המפל – נעליים עם אחיזה."
+      "water": "נחל קריוס לאורך שביל קלדוניה (לא לשתות בלי טיהור). אין מים בעלייה – לקחת 1.5 ליטר לאדם. מסעדה (Psilo Dendro) ליד נקודת ההתחלה.",
+      "notes": "מעגלי, 1,200–1,630 מ'. עולים בשביל פוזיאריס עד שביל E4, ויורדים בשביל קלדוניה ליד המפל. בירידה סלעים רטובים וחלקלקים ומעברי נחל – נעליים עם אחיזה."
     },
     {
       "id": "persephone",
