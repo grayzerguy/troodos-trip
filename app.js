@@ -531,17 +531,19 @@ function viewEmergency() {
     ${main ? `<a class="sos" href="${telHref(main.phone)}"><span class="big">${esc(main.phone)}</span>
       <span>${esc(main.label)} – לחצו לחיוג</span></a>` : ''}
     ${rest.length ? `<div class="call-grid">${rest.map((n) => `
-      <a class="btn danger" href="${telHref(n.phone)}"><b>${esc(n.phone)}</b><span class="small">${esc(n.label)}</span></a>`).join('')}</div>` : ''}
+      <a class="btn danger" href="${telHref(n.phone)}"><b dir="ltr">${esc(n.phone)}</b><span class="small">${esc(n.label)}</span></a>`).join('')}</div>` : ''}
 
     <section class="card"><h3>🏥 בתי חולים ומרפאות</h3>
       ${(e.medical || []).map((m) => `<div class="list-row"><b>${esc(m.name)}</b>
         ${m.phone ? `<span class="muted small mono" dir="ltr">${esc(m.phone)}</span>` : ''}
+        ${m.address ? `<div class="small" dir="auto">${esc(m.address)}</div>` : ''}
+        ${m.notes ? `<div class="small muted">${esc(m.notes)}</div>` : ''}
         <div class="btns">${callBtn(m.phone)}${navButtons(m)}</div></div>`).join('') || '<div class="muted">—</div>'}
     </section>
 
     ${e.embassy ? `<section class="card"><h3>🇮🇱 ${esc(e.embassy.name)}</h3>
-      ${kv([['כתובת', e.embassy.address], ['טלפון', e.embassy.phone]])}
-      <div class="btns">${callBtn(e.embassy.phone)}</div></section>` : ''}
+      ${kv([['כתובת', e.embassy.address], ['טלפון', e.embassy.phone ? `<span dir="ltr">${esc(e.embassy.phone)}</span>` : '', true], ['הערות', e.embassy.notes]])}
+      <div class="btns">${callBtn(e.embassy.phone)}${navButtons(e.embassy)}</div></section>` : ''}
 
     <section class="card"><h3>🛡️ ביטוח</h3>
       ${(e.insurance || []).map((ins) => `<div class="list-row">
