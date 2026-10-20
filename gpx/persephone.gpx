@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="troodos-pwa placeholder" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>persephone (PLACEHOLDER – replace with real track)</name></metadata>
+  <trk><name>persephone</name><trkseg>
+      <trkpt lat="34.920500" lon="32.882500"><ele>1750</ele></trkpt>
+      <trkpt lat="34.920083" lon="32.882333"><ele>1748</ele></trkpt>
+      <trkpt lat="34.919667" lon="32.882167"><ele>1745</ele></trkpt>
+      <trkpt lat="34.919250" lon="32.882000"><ele>1742</ele></trkpt>
+      <trkpt lat="34.918833" lon="32.881833"><ele>1740</ele></trkpt>
+      <trkpt lat="34.918417" lon="32.881667"><ele>1738</ele></trkpt>
+      <trkpt lat="34.918000" lon="32.881500"><ele>1735</ele></trkpt>
+      <trkpt lat="34.917583" lon="32.881333"><ele>1732</ele></trkpt>
+      <trkpt lat="34.917167" lon="32.881167"><ele>1730</ele></trkpt>
+      <trkpt lat="34.916750" lon="32.881000"><ele>1728</ele></trkpt>
+      <trkpt lat="34.916333" lon="32.880833"><ele>1725</ele></trkpt>
+      <trkpt lat="34.915917" lon="32.880667"><ele>1722</ele></trkpt>
+      <trkpt lat="34.915500" lon="32.880500"><ele>1720</ele></trkpt>
+      <trkpt lat="34.915083" lon="32.880333"><ele>1718</ele></trkpt>
+      <trkpt lat="34.914667" lon="32.880167"><ele>1715</ele></trkpt>
+      <trkpt lat="34.914250" lon="32.880000"><ele>1712</ele></trkpt>
+      <trkpt lat="34.913833" lon="32.879833"><ele>1710</ele></trkpt>
+      <trkpt lat="34.913417" lon="32.879667"><ele>1708</ele></trkpt>
+      <trkpt lat="34.913000" lon="32.879500"><ele>1705</ele></trkpt>
+      <trkpt lat="34.912583" lon="32.879333"><ele>1702</ele></trkpt>
+      <trkpt lat="34.912167" lon="32.879167"><ele>1700</ele></trkpt>
+      <trkpt lat="34.911750" lon="32.879000"><ele>1698</ele></trkpt>
+      <trkpt lat="34.911333" lon="32.878833"><ele>1695</ele></trkpt>
+      <trkpt lat="34.910917" lon="32.878667"><ele>1692</ele></trkpt>
+      <trkpt lat="34.910500" lon="32.878500"><ele>1690</ele></trkpt>
+  </trkseg></trk>
+</gpx>

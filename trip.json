@@ -1,0 +1,226 @@
+{
+  "trip": {
+    "name": "טרודוס 2026",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-15",
+    "lastUpdated": "2026-10-20"
+  },
+  "itinerary": [
+    {
+      "date": "2026-11-12",
+      "title": "נחיתה, איסוף רכב ועלייה להרים",
+      "departure": "10:30",
+      "meetingPoint": { "name": "נמל התעופה לרנקה – יציאה מהטרמינל", "lat": 34.8751, "lng": 33.6249 },
+      "driver": "נהג/ת 1 (להשלים)",
+      "routeId": "caledonia",
+      "hotelId": "hotel-troodos",
+      "notes": "עצירת קניות בסופר בדרך. נסיעה של כשעה וחצי לטרודוס."
+    },
+    {
+      "date": "2026-11-13",
+      "title": "שביל ארטמיס סביב האולימפוס",
+      "departure": "08:00",
+      "meetingPoint": { "name": "לובי המלון", "lat": 34.9216, "lng": 32.8812 },
+      "driver": "נהג/ת 2 (להשלים)",
+      "routeId": "artemis",
+      "hotelId": "hotel-troodos",
+      "notes": "להביא שכבה חמה – בפסגה קר ורוח."
+    },
+    {
+      "date": "2026-11-14",
+      "title": "שביל אטלנטה",
+      "departure": "08:30",
+      "meetingPoint": { "name": "כיכר טרודוס", "lat": 34.922, "lng": 32.880 },
+      "driver": "נהג/ת 1 (להשלים)",
+      "routeId": "atalante",
+      "hotelId": "hotel-platres",
+      "notes": "בערב מעבר למלון בפלאטרס."
+    },
+    {
+      "date": "2026-11-15",
+      "title": "שביל פרספונה וחזרה ללרנקה",
+      "departure": "09:00",
+      "meetingPoint": { "name": "מלון בפלאטרס", "lat": 34.8889, "lng": 32.8628 },
+      "driver": "נהג/ת 2 (להשלים)",
+      "routeId": "persephone",
+      "hotelId": "",
+      "notes": "להחזיר את הרכב עם מיכל מלא. להגיע לשדה 3 שעות לפני הטיסה."
+    }
+  ],
+  "routes": [
+    {
+      "id": "artemis",
+      "name": "שביל ארטמיס (Artemis Trail)",
+      "lengthKm": 7,
+      "ascentM": 200,
+      "durationH": 2.5,
+      "difficulty": "קל-בינוני",
+      "start": { "lat": 34.9325, "lng": 32.8695 },
+      "gpx": "gpx/artemis.gpx",
+      "links": [
+        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Artemis%20trail%20Troodos" },
+        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?x=32.8695&y=34.9325&z=15" }
+      ],
+      "water": "אין מקורות מים בדרך – לקחת 1.5 ליטר לאדם.",
+      "notes": "מסלול מעגלי סביב פסגת האולימפוס, ~1,850 מ'. אפשרי קרח בבוקר."
+    },
+    {
+      "id": "atalante",
+      "name": "שביל אטלנטה (Atalante Trail)",
+      "lengthKm": 14,
+      "ascentM": 250,
+      "durationH": 4.5,
+      "difficulty": "בינוני",
+      "start": { "lat": 34.9220, "lng": 32.8800 },
+      "gpx": "gpx/atalante.gpx",
+      "links": [
+        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Atalante%20trail%20Troodos" },
+        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?x=32.8800&y=34.9220&z=15" }
+      ],
+      "water": "מעיין בערך באמצע המסלול (לבדוק שזורם).",
+      "notes": "מתחיל ומסתיים בכיכר טרודוס. מעבר ליד מכרה כרום ישן."
+    },
+    {
+      "id": "caledonia",
+      "name": "מפל קלדוניה (Caledonia Trail)",
+      "lengthKm": 3,
+      "ascentM": 50,
+      "durationH": 1.5,
+      "difficulty": "קל",
+      "start": { "lat": 34.9073, "lng": 32.8700 },
+      "gpx": "gpx/caledonia.gpx",
+      "links": [
+        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Caledonia%20waterfall" }
+      ],
+      "water": "לאורך נחל – אבל לא לשתות בלי טיהור.",
+      "notes": "חד-כיווני בירידה, ~230 מ' ירידה. סלעים חלקלקים ליד המפל – נעליים עם אחיזה."
+    },
+    {
+      "id": "persephone",
+      "name": "שביל פרספונה (Persephone Trail)",
+      "lengthKm": 6,
+      "ascentM": 150,
+      "durationH": 2,
+      "difficulty": "קל",
+      "start": { "lat": 34.9205, "lng": 32.8825 },
+      "gpx": "gpx/persephone.gpx",
+      "links": [
+        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Persephone%20trail%20Troodos" }
+      ],
+      "water": "אין.",
+      "notes": "הלוך-חזור לתצפית על לימסול."
+    }
+  ],
+  "weatherPoints": [
+    { "name": "כיכר טרודוס", "lat": 34.922, "lng": 32.880 },
+    { "name": "פסגת אולימפוס", "lat": 34.936, "lng": 32.864 },
+    { "name": "פלאטרס", "lat": 34.890, "lng": 32.864 }
+  ],
+  "flights": [
+    {
+      "direction": "הלוך",
+      "flightNo": "XX 0000",
+      "from": "תל אביב (TLV)",
+      "to": "לרנקה (LCA)",
+      "depart": "2026-11-12T07:00",
+      "arrive": "2026-11-12T08:15",
+      "checkinUrl": "https://example.com/checkin"
+    },
+    {
+      "direction": "חזור",
+      "flightNo": "XX 0001",
+      "from": "לרנקה (LCA)",
+      "to": "תל אביב (TLV)",
+      "depart": "2026-11-15T20:30",
+      "arrive": "2026-11-15T21:45",
+      "checkinUrl": "https://example.com/checkin"
+    }
+  ],
+  "vehicle": {
+    "company": "חברת השכרה (להשלים)",
+    "phone": "",
+    "bookingRef": "ABC123456",
+    "pickup": { "name": "נמל התעופה לרנקה", "lat": 34.8751, "lng": 33.6249, "time": "2026-11-12T09:00" },
+    "dropoff": { "name": "נמל התעופה לרנקה", "lat": 34.8751, "lng": 33.6249, "time": "2026-11-15T17:30" },
+    "notes": "רכב 9 מקומות. להחזיר עם מיכל מלא."
+  },
+  "hotels": [
+    {
+      "id": "hotel-troodos",
+      "name": "מלון בטרודוס (להשלים)",
+      "address": "Troodos Square, Troodos, Cyprus",
+      "phone": "",
+      "checkIn": "2026-11-12",
+      "checkOut": "2026-11-14",
+      "bookingRef": "HTL-0001",
+      "lat": 34.9216,
+      "lng": 32.8812
+    },
+    {
+      "id": "hotel-platres",
+      "name": "מלון בפלאטרס (להשלים)",
+      "address": "Pano Platres, Cyprus",
+      "phone": "",
+      "checkIn": "2026-11-14",
+      "checkOut": "2026-11-15",
+      "bookingRef": "HTL-0002",
+      "lat": 34.8889,
+      "lng": 32.8628
+    }
+  ],
+  "participants": [
+    { "name": "משתתף/ת 1", "phone": "+972500000001", "emergencyContact": "איש קשר 1", "emergencyPhone": "+972500000101" },
+    { "name": "משתתף/ת 2", "phone": "+972500000002", "emergencyContact": "איש קשר 2", "emergencyPhone": "+972500000102" },
+    { "name": "משתתף/ת 3", "phone": "+972500000003", "emergencyContact": "איש קשר 3", "emergencyPhone": "+972500000103" }
+  ],
+  "gear": [
+    {
+      "category": "לבוש",
+      "items": ["מעיל עמיד למים", "פליז / שכבה חמה", "כובע וכפפות", "מכנסי הליכה", "גרביים להחלפה"]
+    },
+    {
+      "category": "הליכה",
+      "items": ["נעלי הליכה", "תיק יום", "בקבוקי מים (1.5 ל')", "פנס ראש", "מקלות הליכה"]
+    },
+    {
+      "category": "מסמכים וטכנולוגיה",
+      "items": ["דרכון", "רישיון נהיגה (לנהגים)", "כרטיס אשראי", "מטען + סוללה ניידת", "מתאם חשמל (שקע בריטי G)"]
+    },
+    {
+      "category": "בריאות",
+      "items": ["תרופות אישיות", "קרם הגנה", "פלסטרים לשלפוחיות"]
+    }
+  ],
+  "emergency": {
+    "numbers": [
+      { "label": "חירום כללי", "phone": "112" },
+      { "label": "חירום (חלופי)", "phone": "199" }
+    ],
+    "medical": [
+      { "name": "בית החולים הכללי לימסול (להשלים טלפון)", "phone": "", "lat": 34.7016, "lng": 33.0045 },
+      { "name": "מרפאה בפלאטרס (להשלים)", "phone": "", "lat": 34.8890, "lng": 32.8640 }
+    ],
+    "embassy": {
+      "name": "שגרירות ישראל בניקוסיה",
+      "phone": "",
+      "address": "להשלים כתובת"
+    },
+    "insurance": [
+      { "participant": "משתתף/ת 1", "company": "חברת ביטוח (להשלים)", "policy": "POL-0001", "phone": "" }
+    ]
+  },
+  "info": {
+    "currency": "אירו (€). כרטיסי אשראי מתקבלים כמעט בכל מקום; בכפרים קטנים כדאי מזומן.",
+    "phrases": [
+      { "he": "שלום", "gr": "Γεια σας (יאסאס)" },
+      { "he": "בוקר טוב", "gr": "Καλημέρα (קלימרה)" },
+      { "he": "תודה", "gr": "Ευχαριστώ (אפחריסטו)" },
+      { "he": "בבקשה", "gr": "Παρακαλώ (פרקלו)" },
+      { "he": "כן / לא", "gr": "Ναι / Όχι (נה / אוחי)" },
+      { "he": "כמה זה עולה?", "gr": "Πόσο κάνει; (פוסו קאני?)" },
+      { "he": "החשבון, בבקשה", "gr": "Τον λογαριασμό, παρακαλώ (טון לוגריאזמו, פרקלו)" },
+      { "he": "עזרה!", "gr": "Βοήθεια! (בואיתיה)" }
+    ],
+    "splitwiseUrl": "https://www.splitwise.com/"
+  }
+}

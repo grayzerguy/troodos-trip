@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="troodos-pwa placeholder" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>atalante (PLACEHOLDER – replace with real track)</name></metadata>
+  <trk><name>atalante</name><trkseg>
+      <trkpt lat="34.922000" lon="32.880000"><ele>1720</ele></trkpt>
+      <trkpt lat="34.925106" lon="32.880409"><ele>1725</ele></trkpt>
+      <trkpt lat="34.928000" lon="32.881608"><ele>1730</ele></trkpt>
+      <trkpt lat="34.930485" lon="32.883515"><ele>1734</ele></trkpt>
+      <trkpt lat="34.932392" lon="32.886000"><ele>1737</ele></trkpt>
+      <trkpt lat="34.933591" lon="32.888894"><ele>1739</ele></trkpt>
+      <trkpt lat="34.934000" lon="32.892000"><ele>1740</ele></trkpt>
+      <trkpt lat="34.933591" lon="32.895106"><ele>1739</ele></trkpt>
+      <trkpt lat="34.932392" lon="32.898000"><ele>1737</ele></trkpt>
+      <trkpt lat="34.930485" lon="32.900485"><ele>1734</ele></trkpt>
+      <trkpt lat="34.928000" lon="32.902392"><ele>1730</ele></trkpt>
+      <trkpt lat="34.925106" lon="32.903591"><ele>1725</ele></trkpt>
+      <trkpt lat="34.922000" lon="32.904000"><ele>1720</ele></trkpt>
+      <trkpt lat="34.918894" lon="32.903591"><ele>1715</ele></trkpt>
+      <trkpt lat="34.916000" lon="32.902392"><ele>1710</ele></trkpt>
+      <trkpt lat="34.913515" lon="32.900485"><ele>1706</ele></trkpt>
+      <trkpt lat="34.911608" lon="32.898000"><ele>1703</ele></trkpt>
+      <trkpt lat="34.910409" lon="32.895106"><ele>1701</ele></trkpt>
+      <trkpt lat="34.910000" lon="32.892000"><ele>1700</ele></trkpt>
+      <trkpt lat="34.910409" lon="32.888894"><ele>1701</ele></trkpt>
+      <trkpt lat="34.911608" lon="32.886000"><ele>1703</ele></trkpt>
+      <trkpt lat="34.913515" lon="32.883515"><ele>1706</ele></trkpt>
+      <trkpt lat="34.916000" lon="32.881608"><ele>1710</ele></trkpt>
+      <trkpt lat="34.918894" lon="32.880409"><ele>1715</ele></trkpt>
+      <trkpt lat="34.922000" lon="32.880000"><ele>1720</ele></trkpt>
+  </trkseg></trk>
+</gpx>

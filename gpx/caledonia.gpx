@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="troodos-pwa placeholder" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>caledonia (PLACEHOLDER – replace with real track)</name></metadata>
+  <trk><name>caledonia</name><trkseg>
+      <trkpt lat="34.907300" lon="32.870000"><ele>1600</ele></trkpt>
+      <trkpt lat="34.906967" lon="32.869867"><ele>1598</ele></trkpt>
+      <trkpt lat="34.906633" lon="32.869733"><ele>1595</ele></trkpt>
+      <trkpt lat="34.906300" lon="32.869600"><ele>1592</ele></trkpt>
+      <trkpt lat="34.905967" lon="32.869467"><ele>1590</ele></trkpt>
+      <trkpt lat="34.905633" lon="32.869333"><ele>1588</ele></trkpt>
+      <trkpt lat="34.905300" lon="32.869200"><ele>1585</ele></trkpt>
+      <trkpt lat="34.904967" lon="32.869067"><ele>1582</ele></trkpt>
+      <trkpt lat="34.904633" lon="32.868933"><ele>1580</ele></trkpt>
+      <trkpt lat="34.904300" lon="32.868800"><ele>1578</ele></trkpt>
+      <trkpt lat="34.903967" lon="32.868667"><ele>1575</ele></trkpt>
+      <trkpt lat="34.903633" lon="32.868533"><ele>1572</ele></trkpt>
+      <trkpt lat="34.903300" lon="32.868400"><ele>1570</ele></trkpt>
+      <trkpt lat="34.902967" lon="32.868267"><ele>1568</ele></trkpt>
+      <trkpt lat="34.902633" lon="32.868133"><ele>1565</ele></trkpt>
+      <trkpt lat="34.902300" lon="32.868000"><ele>1562</ele></trkpt>
+      <trkpt lat="34.901967" lon="32.867867"><ele>1560</ele></trkpt>
+      <trkpt lat="34.901633" lon="32.867733"><ele>1558</ele></trkpt>
+      <trkpt lat="34.901300" lon="32.867600"><ele>1555</ele></trkpt>
+      <trkpt lat="34.900967" lon="32.867467"><ele>1552</ele></trkpt>
+      <trkpt lat="34.900633" lon="32.867333"><ele>1550</ele></trkpt>
+      <trkpt lat="34.900300" lon="32.867200"><ele>1548</ele></trkpt>
+      <trkpt lat="34.899967" lon="32.867067"><ele>1545</ele></trkpt>
+      <trkpt lat="34.899633" lon="32.866933"><ele>1542</ele></trkpt>
+      <trkpt lat="34.899300" lon="32.866800"><ele>1540</ele></trkpt>
+  </trkseg></trk>
+</gpx>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="troodos-pwa placeholder" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>artemis (PLACEHOLDER – replace with real track)</name></metadata>
+  <trk><name>artemis</name><trkseg>
+      <trkpt lat="34.932500" lon="32.869500"><ele>1850</ele></trkpt>
+      <trkpt lat="34.934053" lon="32.869704"><ele>1855</ele></trkpt>
+      <trkpt lat="34.935500" lon="32.870304"><ele>1860</ele></trkpt>
+      <trkpt lat="34.936743" lon="32.871257"><ele>1864</ele></trkpt>
+      <trkpt lat="34.937696" lon="32.872500"><ele>1867</ele></trkpt>
+      <trkpt lat="34.938296" lon="32.873947"><ele>1869</ele></trkpt>
+      <trkpt lat="34.938500" lon="32.875500"><ele>1870</ele></trkpt>
+      <trkpt lat="34.938296" lon="32.877053"><ele>1869</ele></trkpt>
+      <trkpt lat="34.937696" lon="32.878500"><ele>1867</ele></trkpt>
+      <trkpt lat="34.936743" lon="32.879743"><ele>1864</ele></trkpt>
+      <trkpt lat="34.935500" lon="32.880696"><ele>1860</ele></trkpt>
+      <trkpt lat="34.934053" lon="32.881296"><ele>1855</ele></trkpt>
+      <trkpt lat="34.932500" lon="32.881500"><ele>1850</ele></trkpt>
+      <trkpt lat="34.930947" lon="32.881296"><ele>1845</ele></trkpt>
+      <trkpt lat="34.929500" lon="32.880696"><ele>1840</ele></trkpt>
+      <trkpt lat="34.928257" lon="32.879743"><ele>1836</ele></trkpt>
+      <trkpt lat="34.927304" lon="32.878500"><ele>1833</ele></trkpt>
+      <trkpt lat="34.926704" lon="32.877053"><ele>1831</ele></trkpt>
+      <trkpt lat="34.926500" lon="32.875500"><ele>1830</ele></trkpt>
+      <trkpt lat="34.926704" lon="32.873947"><ele>1831</ele></trkpt>
+      <trkpt lat="34.927304" lon="32.872500"><ele>1833</ele></trkpt>
+      <trkpt lat="34.928257" lon="32.871257"><ele>1836</ele></trkpt>
+      <trkpt lat="34.929500" lon="32.870304"><ele>1840</ele></trkpt>
+      <trkpt lat="34.930947" lon="32.869704"><ele>1845</ele></trkpt>
+      <trkpt lat="34.932500" lon="32.869500"><ele>1850</ele></trkpt>
+  </trkseg></trk>
+</gpx>
