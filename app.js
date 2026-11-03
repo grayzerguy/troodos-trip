@@ -303,6 +303,14 @@ function dayCard(day, num) {
     <div class="btns">${navButtons(mp)}</div>
     ${day.notes ? `<p>${esc(day.notes)}</p>` : ''}
   </section>
+  ${(day.stops || []).length ? `<section class="card">
+      <h3>📍 עצירות בדרך</h3>
+      ${day.stops.map((st) => `<div class="list-row">
+        <b>${esc(st.name)}</b>
+        ${st.note ? `<div class="small muted">${esc(st.note)}</div>` : ''}
+        <div class="btns" style="margin-top:6px">${navButtons(st)}${st.mapy ? `<a class="btn" href="${esc(st.mapy)}" target="_blank" rel="noopener">🧭 Mapy</a>` : ''}</div>
+      </div>`).join('')}
+    </section>` : ''}
   ${sun ? `<section class="card"><div class="sun">
       <div>🌅<b>${fmtTime(sun.sunrise)}</b><span class="muted small">זריחה</span></div>
       <div>☀️<b>${fmtTime(sun.noon)}</b><span class="muted small">צהריים</span></div>
@@ -445,23 +453,24 @@ function viewLogistics(sub) {
   }
 
   function vehicle() {
-    const v = state.trip.vehicle || {};
+    const list = state.trip.vehicles || (state.trip.vehicle ? [state.trip.vehicle] : []);
     return `<div class="alert">⬅️ נוהגים בצד שמאל! ההגה מימין, בכיכרות נכנסים עם כיוון השעון.</div>
       <div class="alert danger">⛔ הביטוח לא מכסה מעבר לצפון (מעבר לקו הירוק).</div>
-      <section class="card">
+      ${list.map((v) => `<section class="card">
         <h3>🚙 ${esc(v.company)}</h3>
         ${kv([
+          ['נהג/ת ראשי/ת', v.driver],
+          ['רכב', v.car],
           ['מספר הזמנה', copyRow(v.bookingRef), true],
+          ['קוד ספק', v.supplierRef ? copyRow(v.supplierRef) : '', true],
           ['איסוף', [v.pickup?.name, fmtDateTime(v.pickup?.time)].filter(Boolean).join(' · ')],
           ['החזרה', [v.dropoff?.name, fmtDateTime(v.dropoff?.time)].filter(Boolean).join(' · ')],
           ['הערות', v.notes],
         ])}
-        <div class="btns">${v.phone ? callBtn(v.phone, '📞 חברת ההשכרה') : ''}</div>
+        <div class="btns">${(v.phones || (v.phone ? [v.phone] : [])).map((p) => callBtn(p, '📞 ' + p)).join('')}</div>
         ${hasCoords(v.pickup) ? `<div class="muted small" style="margin-top:10px">ניווט לנקודת האיסוף:</div>
           <div class="btns" style="margin-top:4px">${navButtons(v.pickup)}</div>` : ''}
-        ${hasCoords(v.dropoff) ? `<div class="muted small" style="margin-top:10px">ניווט לנקודת ההחזרה:</div>
-          <div class="btns" style="margin-top:4px">${navButtons(v.dropoff)}</div>` : ''}
-      </section>`;
+      </section>`).join('')}`;
   }
 
   function hotels() {
