@@ -1,50 +1,123 @@
 {
   "trip": {
     "name": "טרודוס 2026",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-15",
-    "lastUpdated": "2026-10-20 (טלפוני חירום)"
+    "startDate": "2026-11-11",
+    "endDate": "2026-11-16",
+    "lastUpdated": "2026-11-03 (מלונות, רכבים, טיסות, יום 1)"
   },
   "itinerary": [
     {
-      "date": "2026-11-12",
-      "title": "נחיתה, איסוף רכב ועלייה להרים",
-      "departure": "10:30",
-      "meetingPoint": { "name": "נמל התעופה לרנקה – יציאה מהטרמינל", "lat": 34.8751, "lng": 33.6249 },
-      "driver": "נהג/ת 1 (להשלים)",
+      "date": "2026-11-11",
+      "title": "נחיתה, קניות, פריסה ומפל קלדוניה",
+      "departure": "05:30 התכנסות בנתב\"ג · 09:10 נחיתה",
+      "meetingPoint": {
+        "name": "נמל התעופה לרנקה – איסוף רכבים",
+        "lat": 34.8751,
+        "lng": 33.6249
+      },
+      "driver": "אבי ירקוני (CARWIZ 09:30) · אבי הורוביץ (FORCE 10:30)",
       "routeId": "pouziaris-kaledonia",
-      "hotelId": "hotel-troodos",
-      "notes": "עצירת קניות בסופר בדרך. נסיעה של כשעה וחצי לטרודוס."
+      "hotelId": "forest-park",
+      "stops": [
+        {
+          "name": "Alphamega Trimiklini – קניות לפריסה",
+          "lat": 34.860196,
+          "lng": 32.913212,
+          "note": "שעה לקניות. מי שלא קונה מחכה בבית הקפה. פתוח 06:00–21:00."
+        },
+        {
+          "name": "פריסת צהריים – תצפית מוניאטיס",
+          "lat": 34.871529,
+          "lng": 32.893125,
+          "note": "חונים כאן, נקודת הפיקניק כ-12 מ' מהחניה. ליד גן ילדים – ביום חול פתוח בצהריים.",
+          "mapy": "https://mapy.com/fnc/v1/route?mapset=outdoor&start=32.9132117,34.8601956&end=32.8564121,34.8889359&waypoints=32.8932446,34.8714776&routeType=car_fast"
+        },
+        {
+          "name": "Forest Park Hotel – צ'ק-אין והחלפת בגדים",
+          "lat": 34.888936,
+          "lng": 32.856412,
+          "note": "ביקשנו צ'ק-אין מוקדם. אם החדרים לא מוכנים – משאירים ציוד ומחליפים בגדים."
+        }
+      ],
+      "notes": "למסלול: חטיפים, פירות, פק\"ל קפה ופנסים. שקיעה בסביבות 16:50 – לבדוק שעת יציאה מול אורך המסלול. ערב: ארוחה חגיגית במלון או ב-Skylight (החלטה ב-17:00), תדריך וישיבת צוות."
+    },
+    {
+      "date": "2026-11-12",
+      "title": "יום 2 – מסלול (להשלים)",
+      "departure": "",
+      "meetingPoint": {
+        "name": "לובי Forest Park Hotel",
+        "lat": 34.888936,
+        "lng": 32.856412
+      },
+      "driver": "",
+      "routeId": "",
+      "hotelId": "forest-park",
+      "notes": "מסלולים אצל גיא במאפי – יעודכן."
     },
     {
       "date": "2026-11-13",
-      "title": "שביל ארטמיס סביב האולימפוס",
-      "departure": "08:00",
-      "meetingPoint": { "name": "לובי המלון", "lat": 34.9216, "lng": 32.8812 },
-      "driver": "נהג/ת 2 (להשלים)",
-      "routeId": "artemis",
-      "hotelId": "hotel-troodos",
-      "notes": "להביא שכבה חמה – בפסגה קר ורוח."
+      "title": "יום 3 – מסלול + הקפצת סירה (להשלים)",
+      "departure": "",
+      "meetingPoint": {
+        "name": "לובי Forest Park Hotel",
+        "lat": 34.888936,
+        "lng": 32.856412
+      },
+      "driver": "",
+      "routeId": "",
+      "hotelId": "forest-park",
+      "notes": "הסירה בסיום המסלול – בתיאום מול הספק."
     },
     {
       "date": "2026-11-14",
-      "title": "שביל אטלנטה",
-      "departure": "08:30",
-      "meetingPoint": { "name": "כיכר טרודוס", "lat": 34.922, "lng": 32.880 },
-      "driver": "נהג/ת 1 (להשלים)",
-      "routeId": "atalante",
-      "hotelId": "hotel-platres",
-      "notes": "בערב מעבר למלון בפלאטרס."
+      "title": "יום 4 – מסלול (להשלים) · יום הולדת למיכל 🎂",
+      "departure": "",
+      "meetingPoint": {
+        "name": "לובי Forest Park Hotel",
+        "lat": 34.888936,
+        "lng": 32.856412
+      },
+      "driver": "",
+      "routeId": "",
+      "hotelId": "forest-park",
+      "notes": "עוגה ונרות למיכל."
     },
     {
       "date": "2026-11-15",
-      "title": "שביל פרספונה וחזרה ללרנקה",
-      "departure": "09:00",
-      "meetingPoint": { "name": "מלון בפלאטרס", "lat": 34.8889, "lng": 32.8628 },
-      "driver": "נהג/ת 2 (להשלים)",
-      "routeId": "persephone",
+      "title": "יום 5 – מסלול, ערב סיום ומעבר ללרנקה",
+      "departure": "",
+      "meetingPoint": {
+        "name": "לובי Forest Park Hotel",
+        "lat": 34.888936,
+        "lng": 32.856412
+      },
+      "driver": "",
+      "routeId": "",
+      "hotelId": "cactus",
+      "stops": [
+        {
+          "name": "ארוחת ערב – Pastos Tavern, Episkopi",
+          "lat": 34.6735175,
+          "lng": 32.9132422,
+          "note": "הזמנה ל-18:30 או 19:00, מעדכנים ביציאה מהמסלול. ישיבה בחוץ מקורה. טל' 25934414 / Stella 96392312."
+        }
+      ],
+      "notes": "צ'ק-אאוט מ-Forest Park (יתרה €1,178 לתשלום במלון). חלוקת תעודות ומתנות סיום."
+    },
+    {
+      "date": "2026-11-16",
+      "title": "יום 6 – החזרת רכבים וטיסה",
+      "departure": "04:00",
+      "meetingPoint": {
+        "name": "Cactus Hotel",
+        "lat": 34.9005708,
+        "lng": 33.6356276
+      },
+      "driver": "",
+      "routeId": "",
       "hotelId": "",
-      "notes": "להחזיר את הרכב עם מיכל מלא. להגיע לשדה 3 שעות לפני הטיסה."
+      "notes": "החזרת רכבים: CARWIZ 04:00, FORCE 05:00. טיסה W6 4603 ב-06:00. לבדוק ארוחת בוקר ארוזה מהמלון."
     }
   ],
   "routes": [
@@ -55,11 +128,20 @@
       "ascentM": 200,
       "durationH": 2.5,
       "difficulty": "קל-בינוני",
-      "start": { "lat": 34.9325, "lng": 32.8695 },
+      "start": {
+        "lat": 34.9325,
+        "lng": 32.8695
+      },
       "gpx": "gpx/artemis.gpx",
       "links": [
-        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Artemis%20trail%20Troodos" },
-        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?x=32.8695&y=34.9325&z=15" }
+        {
+          "label": "Wikiloc",
+          "url": "https://www.wikiloc.com/wikiloc/map.do?q=Artemis%20trail%20Troodos"
+        },
+        {
+          "label": "Mapy",
+          "url": "https://mapy.com/en/turisticka?x=32.8695&y=34.9325&z=15"
+        }
       ],
       "water": "אין מקורות מים בדרך – לקחת 1.5 ליטר לאדם.",
       "notes": "מסלול מעגלי סביב פסגת האולימפוס, ~1,850 מ'. אפשרי קרח בבוקר."
@@ -71,11 +153,20 @@
       "ascentM": 250,
       "durationH": 4.5,
       "difficulty": "בינוני",
-      "start": { "lat": 34.9220, "lng": 32.8800 },
+      "start": {
+        "lat": 34.922,
+        "lng": 32.88
+      },
       "gpx": "gpx/atalante.gpx",
       "links": [
-        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Atalante%20trail%20Troodos" },
-        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?x=32.8800&y=34.9220&z=15" }
+        {
+          "label": "Wikiloc",
+          "url": "https://www.wikiloc.com/wikiloc/map.do?q=Atalante%20trail%20Troodos"
+        },
+        {
+          "label": "Mapy",
+          "url": "https://mapy.com/en/turisticka?x=32.8800&y=34.9220&z=15"
+        }
       ],
       "water": "מעיין בערך באמצע המסלול (לבדוק שזורם).",
       "notes": "מתחיל ומסתיים בכיכר טרודוס. מעבר ליד מכרה כרום ישן."
@@ -87,14 +178,31 @@
       "ascentM": 470,
       "durationH": 3.5,
       "difficulty": "בינוני",
-      "start": { "lat": 34.89593, "lng": 32.86911 },
+      "start": {
+        "lat": 34.89593,
+        "lng": 32.86911
+      },
       "gpx": "gpx/day1-pouziaris-kaledonia.gpx",
       "links": [
-        { "label": "Mapy", "url": "https://mapy.com/en/turisticka?dim=6acced98ab1c892efcd1decc&x=32.8724670&y=34.9036362&z=14" },
-        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Kaledonia%20Pouziaris%20Platres" }
+        {
+          "label": "Mapy – אופציה קצרה",
+          "url": "https://mapy.com/en/turisticka?dim=6ada15ca821ad00d3c28e93e&x=32.8682991&y=34.8988507&z=16&ovl=2&drawer=1"
+        },
+        {
+          "label": "Mapy – אופציה ארוכה",
+          "url": "https://mapy.com/en/turisticka?dim=6ada1606dc668eaa4a35b0fc&x=32.8678295&y=34.8998785&z=16&ovl=2&drawer=1"
+        },
+        {
+          "label": "Mapy",
+          "url": "https://mapy.com/en/turisticka?dim=6acced98ab1c892efcd1decc&x=32.8724670&y=34.9036362&z=14"
+        },
+        {
+          "label": "Wikiloc",
+          "url": "https://www.wikiloc.com/wikiloc/map.do?q=Kaledonia%20Pouziaris%20Platres"
+        }
       ],
       "water": "נחל קריוס לאורך שביל קלדוניה (לא לשתות בלי טיהור). אין מים בעלייה – לקחת 1.5 ליטר לאדם. מסעדה (Psilo Dendro) ליד נקודת ההתחלה.",
-      "notes": "מעגלי, 1,200–1,630 מ'. עולים בשביל פוזיאריס עד שביל E4, ויורדים בשביל קלדוניה ליד המפל. בירידה סלעים רטובים וחלקלקים ומעברי נחל – נעליים עם אחיזה."
+      "notes": "מעגלי, 1,200–1,630 מ'. עולים בשביל פוזיאריס עד שביל E4, ויורדים בשביל קלדוניה ליד המפל. בירידה סלעים רטובים וחלקלקים ומעברי נחל – נעליים עם אחיזה. שתי אופציות במאפי (קצרה/ארוכה); לבדוק הוספת קטע יפה לארוכה. הנתונים וה-GPX כאן הם של המסלול המקורי."
     },
     {
       "id": "persephone",
@@ -103,76 +211,228 @@
       "ascentM": 150,
       "durationH": 2,
       "difficulty": "קל",
-      "start": { "lat": 34.9205, "lng": 32.8825 },
+      "start": {
+        "lat": 34.9205,
+        "lng": 32.8825
+      },
       "gpx": "gpx/persephone.gpx",
       "links": [
-        { "label": "Wikiloc", "url": "https://www.wikiloc.com/wikiloc/map.do?q=Persephone%20trail%20Troodos" }
+        {
+          "label": "Wikiloc",
+          "url": "https://www.wikiloc.com/wikiloc/map.do?q=Persephone%20trail%20Troodos"
+        }
       ],
       "water": "אין.",
       "notes": "הלוך-חזור לתצפית על לימסול."
     }
   ],
   "weatherPoints": [
-    { "name": "כיכר טרודוס", "lat": 34.922, "lng": 32.880 },
-    { "name": "פסגת אולימפוס", "lat": 34.936, "lng": 32.864 },
-    { "name": "פלאטרס", "lat": 34.890, "lng": 32.864 }
+    {
+      "name": "כיכר טרודוס",
+      "lat": 34.922,
+      "lng": 32.88
+    },
+    {
+      "name": "פסגת אולימפוס",
+      "lat": 34.936,
+      "lng": 32.864
+    },
+    {
+      "name": "פלאטרס",
+      "lat": 34.89,
+      "lng": 32.864
+    },
+    {
+      "name": "לרנקה",
+      "lat": 34.9006,
+      "lng": 33.6356
+    }
   ],
   "flights": [
     {
       "direction": "הלוך",
-      "flightNo": "XX 0000",
+      "flightNo": "W6 4604 (Wizz Air)",
       "from": "תל אביב (TLV)",
       "to": "לרנקה (LCA)",
-      "depart": "2026-11-12T07:00",
-      "arrive": "2026-11-12T08:15",
-      "checkinUrl": "https://example.com/checkin"
+      "depart": "2026-11-11T08:00",
+      "arrive": "2026-11-11T09:10",
+      "checkinUrl": "https://wizzair.com/"
     },
     {
       "direction": "חזור",
-      "flightNo": "XX 0001",
+      "flightNo": "W6 4603 (Wizz Air)",
       "from": "לרנקה (LCA)",
       "to": "תל אביב (TLV)",
-      "depart": "2026-11-15T20:30",
-      "arrive": "2026-11-15T21:45",
-      "checkinUrl": "https://example.com/checkin"
+      "depart": "2026-11-16T06:00",
+      "arrive": "",
+      "checkinUrl": "https://wizzair.com/"
     }
   ],
-  "vehicle": {
-    "company": "חברת השכרה (להשלים)",
-    "phone": "",
-    "bookingRef": "ABC123456",
-    "pickup": { "name": "נמל התעופה לרנקה", "lat": 34.8751, "lng": 33.6249, "time": "2026-11-12T09:00" },
-    "dropoff": { "name": "נמל התעופה לרנקה", "lat": 34.8751, "lng": 33.6249, "time": "2026-11-15T17:30" },
-    "notes": "רכב 9 מקומות. להחזיר עם מיכל מלא."
-  },
-  "hotels": [
+  "vehicles": [
     {
-      "id": "hotel-troodos",
-      "name": "מלון בטרודוס (להשלים)",
-      "address": "Troodos Square, Troodos, Cyprus",
-      "phone": "",
-      "checkIn": "2026-11-12",
-      "checkOut": "2026-11-14",
-      "bookingRef": "HTL-0001",
-      "lat": 34.9216,
-      "lng": 32.8812
+      "company": "CARWIZ (דרך EconomyCarRentals)",
+      "driver": "אבי ירקוני",
+      "car": "Nissan Serena או דומה, אוטומטי, 8 מושבים",
+      "bookingRef": "ECA1EFEA",
+      "supplierRef": "10#26-LCAAIR-581",
+      "phones": [
+        "+35799555071",
+        "+35796500735"
+      ],
+      "pickup": {
+        "name": "נמל התעופה לרנקה",
+        "lat": 34.8751,
+        "lng": 33.6249,
+        "time": "2026-11-11T09:30"
+      },
+      "dropoff": {
+        "name": "נמל התעופה לרנקה",
+        "lat": 34.8751,
+        "lng": 33.6249,
+        "time": "2026-11-16T04:00"
+      },
+      "notes": "Meet & Greet – להתקשר לתחנה לתיאום שאטל. דלק מלא–מלא. יתרה בדלפק €290.97, פיקדון €1,200."
     },
     {
-      "id": "hotel-platres",
-      "name": "מלון בפלאטרס (להשלים)",
-      "address": "Pano Platres, Cyprus",
-      "phone": "",
-      "checkIn": "2026-11-14",
+      "company": "FORCE RENT A CAR (דרך CarJet)",
+      "driver": "אבי הורוביץ",
+      "car": "Nissan Serena או דומה, אוטומטי, 8 מושבים",
+      "bookingRef": "CJT-225917284",
+      "supplierRef": "3PG80F",
+      "phones": [
+        "+35723722620",
+        "+35799177627"
+      ],
+      "pickup": {
+        "name": "נמל התעופה לרנקה",
+        "lat": 34.8751,
+        "lng": 33.6249,
+        "time": "2026-11-11T10:30"
+      },
+      "dropoff": {
+        "name": "נמל התעופה לרנקה",
+        "lat": 34.8751,
+        "lng": 33.6249,
+        "time": "2026-11-16T05:00"
+      },
+      "notes": "יציאה בקומת המראות 2, שמאלה עד קצה נתיב ההורדה – שאטל FORCE. דלק כמו שהתקבל. יתרה בדלפק $208.65, פיקדון $1,224.62."
+    }
+  ],
+  "hotels": [
+    {
+      "id": "forest-park",
+      "name": "Forest Park Hotel",
+      "address": "Spyrou Kyprianou 62, 4820 Pano Platres",
+      "phone": "+35725421751",
+      "checkIn": "2026-11-11",
       "checkOut": "2026-11-15",
-      "bookingRef": "HTL-0002",
-      "lat": 34.8889,
-      "lng": 32.8628
+      "bookingRef": "פרופורמה 31497",
+      "lat": 34.888936,
+      "lng": 32.856412
+    },
+    {
+      "id": "cactus",
+      "name": "Cactus Hotel",
+      "address": "6-8 Tyrimou Str, Larnaka 6027",
+      "phone": "+35724627400",
+      "checkIn": "2026-11-15",
+      "checkOut": "2026-11-16",
+      "bookingRef": "Group Avi 15-16nov26",
+      "lat": 34.9005708,
+      "lng": 33.6356276
     }
   ],
   "participants": [
-    { "name": "משתתף/ת 1", "phone": "+972500000001", "emergencyContact": "איש קשר 1", "emergencyPhone": "+972500000101" },
-    { "name": "משתתף/ת 2", "phone": "+972500000002", "emergencyContact": "איש קשר 2", "emergencyPhone": "+972500000102" },
-    { "name": "משתתף/ת 3", "phone": "+972500000003", "emergencyContact": "איש קשר 3", "emergencyPhone": "+972500000103" }
+    {
+      "name": "דניאל וולפסון (מובילה)",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "אבי ירקוני (לוגיסטיקה)",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "אבי הורוביץ",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "כנרת לוי",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "ניסים",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "חיים",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "אולגה",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "מיכל",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "מורן",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "אסף",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "יגאל",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "ניצה",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "מירב",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "יוסי",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    },
+    {
+      "name": "מאיה",
+      "phone": "",
+      "emergencyContact": "",
+      "emergencyPhone": ""
+    }
   ],
   "gear": [
     {
