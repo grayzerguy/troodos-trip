@@ -3,7 +3,7 @@
     "name": "טרודוס 2026",
     "startDate": "2026-11-11",
     "endDate": "2026-11-16",
-    "lastUpdated": "2026-11-03 (יום 1: שתי אופציות למסלול)"
+    "lastUpdated": "2026-11-03 (יום 1: שתי אופציות, בלי קישורי Mapy)"
   },
   "itinerary": [
     {
@@ -33,8 +33,7 @@
           "name": "פריסת צהריים – תצפית מוניאטיס",
           "lat": 34.871529,
           "lng": 32.893125,
-          "note": "חונים כאן, נקודת הפיקניק כ-12 מ' מהחניה. ליד גן ילדים – ביום חול פתוח בצהריים.",
-          "mapy": "https://mapy.com/fnc/v1/route?mapset=outdoor&start=32.9132117,34.8601956&end=32.8564121,34.8889359&waypoints=32.8932446,34.8714776&routeType=car_fast"
+          "note": "חונים כאן, נקודת הפיקניק כ-12 מ' מהחניה. ליד גן ילדים – ביום חול פתוח בצהריים."
         },
         {
           "name": "Forest Park Hotel – צ'ק-אין והחלפת בגדים",
@@ -141,10 +140,6 @@
         {
           "label": "Wikiloc",
           "url": "https://www.wikiloc.com/wikiloc/map.do?q=Artemis%20trail%20Troodos"
-        },
-        {
-          "label": "Mapy",
-          "url": "https://mapy.com/en/turisticka?x=32.8695&y=34.9325&z=15"
         }
       ],
       "water": "אין מקורות מים בדרך – לקחת 1.5 ליטר לאדם.",
@@ -166,10 +161,6 @@
         {
           "label": "Wikiloc",
           "url": "https://www.wikiloc.com/wikiloc/map.do?q=Atalante%20trail%20Troodos"
-        },
-        {
-          "label": "Mapy",
-          "url": "https://mapy.com/en/turisticka?x=32.8800&y=34.9220&z=15"
         }
       ],
       "water": "מעיין בערך באמצע המסלול (לבדוק שזורם).",
@@ -188,14 +179,6 @@
       },
       "gpx": "gpx/day1-pouziaris-kaledonia.gpx",
       "links": [
-        {
-          "label": "Mapy – אופציה ארוכה",
-          "url": "https://mapy.com/en/turisticka?dim=6ada1606dc668eaa4a35b0fc&x=32.8678295&y=34.8998785&z=16&ovl=2&drawer=1"
-        },
-        {
-          "label": "Mapy",
-          "url": "https://mapy.com/en/turisticka?dim=6acced98ab1c892efcd1decc&x=32.8724670&y=34.9036362&z=14"
-        },
         {
           "label": "Wikiloc",
           "url": "https://www.wikiloc.com/wikiloc/map.do?q=Kaledonia%20Pouziaris%20Platres"
@@ -216,12 +199,7 @@
         "lng": 32.868505
       },
       "gpx": "gpx/day1-caledonia-short.gpx",
-      "links": [
-        {
-          "label": "Mapy",
-          "url": "https://mapy.com/en/turisticka?dim=6ada15ca821ad00d3c28e93e&x=32.8682991&y=34.8988507&z=16&ovl=2&drawer=1"
-        }
-      ],
+      "links": [],
       "water": "נחל קריוס לאורך השביל (לא לשתות בלי טיהור) – לקחת לפחות ליטר לאדם.",
       "notes": "מסלול קצר שחוזר לנקודת ההתחלה, 1,190–1,360 מ'. החלופה כשאין מספיק זמן עד השקיעה (בסביבות 16:50)."
     },
