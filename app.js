@@ -286,7 +286,8 @@ function viewToday() {
 }
 
 function dayCard(day, num) {
-  const route = findRoute(day.routeId);
+  const routes = (day.routeIds || [day.routeId]).map(findRoute).filter(Boolean);
+  const route = routes[0];
   const hotel = findHotel(day.hotelId);
   const mp = day.meetingPoint || {};
   const sunAt = hasCoords(mp) ? mp : (route?.start || state.trip.weatherPoints?.[0]);
@@ -316,12 +317,12 @@ function dayCard(day, num) {
       <div>☀️<b>${fmtTime(sun.noon)}</b><span class="muted small">צהריים</span></div>
       <div>🌇<b>${fmtTime(sun.sunset)}</b><span class="muted small">שקיעה</span></div>
     </div></section>` : ''}
-  ${route ? `<section class="card">
+  ${routes.map((route) => `<section class="card">
       <div class="card-title"><h3>🥾 ${esc(route.name)}</h3>
         <span class="badge ${difficultyClass(route.difficulty)}">${esc(route.difficulty)}</span></div>
       ${routeStats(route)}
       <div class="btns"><a class="btn" href="#routes/${esc(route.id)}">לפרטי המסלול</a></div>
-    </section>` : ''}
+    </section>`).join('')}
   ${hotel ? `<section class="card">
       <h3>🛏️ לינה: ${esc(hotel.name)}</h3>
       ${kv([['כתובת', hotel.address]])}
