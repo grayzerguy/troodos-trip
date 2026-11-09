@@ -309,7 +309,7 @@ function dayCard(day, num) {
       ${day.stops.map((st) => `<div class="list-row">
         <b>${esc(st.name)}</b>
         ${st.note ? `<div class="small muted">${esc(st.note)}</div>` : ''}
-        <div class="btns" style="margin-top:6px">${navButtons(st)}${st.mapy ? `<a class="btn" href="${esc(st.mapy)}" target="_blank" rel="noopener">🧭 Mapy</a>` : ''}</div>
+        <div class="btns" style="margin-top:6px">${st.trail ? '' : navButtons(st)}${st.mapy ? `<a class="btn" href="${esc(st.mapy)}" target="_blank" rel="noopener">🧭 Mapy</a>` : ''}</div>
       </div>`).join('')}
     </section>` : ''}
   ${sun ? `<section class="card"><div class="sun">
